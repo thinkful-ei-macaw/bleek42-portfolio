@@ -5,55 +5,55 @@
 }
 
 .grid-container {
-display: grid;
-grid-template-columns: auto;
-grid-gap: 2rem;
+  display: grid;
+  grid-template-columns: auto;
+  grid-gap: 2rem;
 }
 
 html {
-font-family: Oxanium;
+  font-family: Oxanium;
 }
 
 @font-face {
-font-family: Oxanium;
-src: url(fonts/Oxanium/Oxanium-Bold.ttf)
+  font-family: Oxanium;
+  src: url(fonts/Oxanium/Oxanium-Bold.ttf);
 }
 
 @font-face {
-font-family: birdman;
-src: url(fonts/birdman/BIRDO___.TTF);
+  font-family: birdman;
+  src: url(fonts/birdman/BIRDO___.TTF);
 }
 
 body {
-background-image: url(images/source_code.jpg);
-background-position: center;
-background-size: cover;
+  background-image: url(images/source_code.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 header {
-background-color: #0f5858e6;  
-font-family: birdman;
-display: flex;
-flex-flow: column;
-border: 4px solid black;
-border-radius: 3em;
-padding: 2em;
+  background-color: #0f5858e6;
+  font-family: birdman;
+  display: flex;
+  flex-flow: column;
+  border: 4px solid black;
+  border-radius: 3em;
+  padding: 2em;
 }
 
 nav {
-background-color: #0f5858e6;
-display: flex;
-flex-direction: column;
-justify-content: space-around;
-align-items: center;
-font-family: birdman;
-font-size: 30px;
-font-weight: 900;
-margin: 20px;
-padding: 30px;
-border: 4px solid black;
-border-radius: 3em;
-padding: 2em;
+  background-color: #0f5858e6;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  font-family: birdman;
+  font-size: 30px;
+  font-weight: 900;
+  margin: 20px;
+  padding: 30px;
+  border: 4px solid black;
+  border-radius: 3em;
+  padding: 2em;
 }
 
 #nav {
@@ -65,7 +65,7 @@ padding: 2em;
 }
 
 #nav:hover {
-color: #49fd0e; 
+  color: #49fd0e;
 }
 
 #nav:visited {
@@ -73,34 +73,34 @@ color: #49fd0e;
 }
 
 h1 {
-color: #49fd0e;
-font-weight: bolder;
-font-size: 4em;
-margin: 0.67em 0;
+  color: #49fd0e;
+  font-weight: bolder;
+  font-size: 4em;
+  margin: 0.67em 0;
 }
 
 h2 {
-color: #49fd0e;
-font-size: 3em;
-font-weight: bold;
-margin: 1em;
+  color: #49fd0e;
+  font-size: 3em;
+  font-weight: bold;
+  margin: 1em;
 }
 
 #contact {
-font-family: Oxanium;
-font-size: 25px;
-display: flex;
-flex-flow: column;
-background-color: #0f5858e6;
-margin: 20px;
-padding: 30px;
-border: 4px solid black;
-border-radius: 3em;
-padding: 2em;
+  font-family: Oxanium;
+  font-size: 25px;
+  display: flex;
+  flex-flow: column;
+  background-color: #0f5858e6;
+  margin: 20px;
+  padding: 30px;
+  border: 4px solid black;
+  border-radius: 3em;
+  padding: 2em;
 }
 
 #contact-info:link {
-  color:  #0830b3;
+  color: #0830b3;
 }
 
 #contact-info:hover {
@@ -112,42 +112,42 @@ padding: 2em;
 }
 
 #welcome {
-display: flex;
-flex-flow: column;
-background-color: #0f5858e6;
-margin: 20px;
-padding: 30px;
-border: 4px solid black;
-border-radius: 3em;
-padding: 2em;
-font-size: 20px;
-word-spacing: 3px;
+  display: flex;
+  flex-flow: column;
+  background-color: #0f5858e6;
+  margin: 20px;
+  padding: 30px;
+  border: 4px solid black;
+  border-radius: 3em;
+  padding: 2em;
+  font-size: 20px;
+  word-spacing: 3px;
 }
 
 #about-me {
-display: flex;
-flex-flow: column;
-background-color: #0f5858e6;
-margin: 20px;
-padding: 30px;
-border: 4px solid black;
-border-radius: 3em;
-padding: 2em;
-font-size: 20px;
-word-spacing: 3px;
+  display: flex;
+  flex-flow: column;
+  background-color: #0f5858e6;
+  margin: 20px;
+  padding: 30px;
+  border: 4px solid black;
+  border-radius: 3em;
+  padding: 2em;
+  font-size: 20px;
+  word-spacing: 3px;
 }
 
-#project-1 {
-display: flex;
-flex-flow: column;
-background-color: #0f5858e6;
-margin: 20px;
-padding: 30px;
-border: 4px solid black;
-border-radius: 3em;
-padding: 2em;
-font-size: 20px;
-word-spacing: 3px;
+#projects {
+  display: flex;
+  flex-flow: column;
+  background-color: #0f5858e6;
+  margin: 20px;
+  padding: 30px;
+  border: 4px solid black;
+  border-radius: 3em;
+  padding: 2em;
+  font-size: 20px;
+  word-spacing: 3px;
 }
 
 #section-titles {
@@ -167,19 +167,6 @@ word-spacing: 3px;
   flex-flow: column;
 }
 
-#project-2 {
-  display: flex;
-  flex-flow: column;
-  background-color: #0f5858e6;
-  margin: 20px;
-  padding: 30px;
-  border: 4px solid black;
-  border-radius: 3em;
-  padding: 2em;
-  font-size: 20px;
-  word-spacing: 3px;
-}
-
 #bookmarks-app {
   display: flex;
   flex-flow: column;
@@ -191,13 +178,13 @@ word-spacing: 3px;
 }
 
 a:link {
-  color:  #0830b3;
+  color: #0830b3;
 }
-  
+
 a:hover {
   color: #49fd0e;
 }
-  
+
 a:visited {
   color: #0e065e;
 }
@@ -218,9 +205,8 @@ footer {
 /*media query for menu at top - desktops/laptops/large & portrait-view tablets*/
 
 @media (min-width: 950px) {
-
   nav {
-    background-color: #0f5858e6;  
+    background-color: #0f5858e6;
     font-family: birdman;
     display: flex;
     flex-direction: row;
@@ -228,5 +214,4 @@ footer {
     border-radius: 3em;
     padding: 2em;
   }
-
 }
