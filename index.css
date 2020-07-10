@@ -60,15 +60,15 @@ nav {
   font-size: 35px;
 }
 
-#nav:link {
+nav:link {
   color: #0d19c9;
 }
 
-#nav:hover {
+nav:hover {
   color: #49fd0e;
 }
 
-#nav:visited {
+nav:visited {
   color: #0e065e;
 }
 
