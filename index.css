@@ -160,7 +160,7 @@ h2 {
   word-spacing: 3px;
 }
 
-#screenshots {
+.screenshots {
   border-style: solid;
   margin: 10px;
   display: flex;
