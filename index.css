@@ -215,3 +215,10 @@ footer {
     padding: 2em;
   }
 }
+
+@media (max-width: 320px) {
+  body {
+    display: flex;
+    flex-direction: column;
+  }
+}
