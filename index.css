@@ -150,7 +150,8 @@ h2 {
   word-spacing: 3px;
 }
 
-#section-titles {
+#
+.section-titles{
   display: flex;
   flex-flow: column;
   font-family: birdman;
