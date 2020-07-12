@@ -111,7 +111,7 @@ h2 {
   color: #0e065e;
 }
 
-#welcome {
+.welcome {
   display: flex;
   flex-flow: column;
   background-color: #0f5858e6;
@@ -124,7 +124,7 @@ h2 {
   word-spacing: 3px;
 }
 
-#about-me {
+.about-me {
   display: flex;
   flex-flow: column;
   background-color: #0f5858e6;
@@ -137,7 +137,7 @@ h2 {
   word-spacing: 3px;
 }
 
-#projects {
+.projects {
   display: flex;
   flex-flow: column;
   background-color: #0f5858e6;
@@ -150,7 +150,6 @@ h2 {
   word-spacing: 3px;
 }
 
-#
 .section-titles{
   display: flex;
   flex-flow: column;
