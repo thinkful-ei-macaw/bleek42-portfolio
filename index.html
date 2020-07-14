@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <title>BLeek42 Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css"
+    />
+    <link rel="stylesheet" type="text/css" href="index.css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-</head>
+  </head>
 
-<body>
+  <body>
     <main class="grid-container">
+<<<<<<< HEAD
         <nav id="nav-bar">
             <a id='nav' href="#welcome">| Welcome |</a>
             <a id='nav' href="#contact-info">| Contact |</a>
@@ -103,8 +107,252 @@
                 code can be found <a href="https://github.com/thinkful-ei-macaw/bleek-bookmarks-app">here!</a> </p>
             <img id="screenshots" src="images/Bookmarks app.png" alt="bookmark-screenshot" width="600" height="500">
         </section>
+=======
+      <nav id="nav-bar">
+        <a href="#welcome">| Welcome |</a>
+        <a href="#contact-info">| Contact |</a>
+        <a href="#about-me">| Bio |</a>
+        <a href="#projects">| Projects |</a>
+      </nav>
+      <header>
+        <h1>Brandon C. Leek</h1>
+        <h2>Web Developer & Mobile Tech Enthusiast</h2>
+      </header>
+      <address id="contact">
+        Email:
+        <a href="mailto:brandonleek42@gmail.com" target="_blank"
+          >brandonleek42@gmail.com</a
+        ><br />
+        LinkedIn:
+        <a
+          href="https://www.linkedin.com/in/brandon-leek-4031891a4/"
+          target="_blank"
+          >Click here!</a
+        ><br />
+        GitHub:
+        <a
+          id="contact-info"
+          href="https://www.github.com/bleek42"
+          target="_blank"
+          >Click here!</a
+        >
+      </address>
+      <section class="welcome">
+        <h4 class="section-titles">Welcome</h4>
+        Hello and thanks for viewing!<br />
+        My name is Brandon Leek and I'm a front-end web developer.
+      </section>
+      <section class="about-me">
+        <h4 class="section-titles">About Me</h4>
+        I have recently graduated from Thinkful's Software Engineering Immersion
+        program.<br />
+        I have implemented a variety of projects using HTML, CSS, Javascript and
+        many of it's widely used libraries and frameworks.<br />
+        Having been exposed to internet technologies at a young age, as well as
+        being a former sales representative of mobile devices, my recent pursuit
+        down this career path just feels natural. The ongoing revolution in how
+        humanity interacts and creates is an infinite source of inspiration to
+        me and I am devoted to being a part of it. Open-source projects are my
+        favorite part of it all! The accessibility to all, as well as the sense
+        of community and bonding between developers all over the globe that it
+        fosters is a beautiful thing. When I'm not writing mark up and
+        scripting, I am travelling the country to new cities and nature in
+        immersive concerts and festivals with friends I have made from every
+        corner of the country.
+      </section>
+      <section class="projects">
+        <h4 class="section-titles">Multiple Choice Quiz App</h4>
+        My first web application is a simple 5 question quiz, made for anyone
+        that enjoys simple bar trivia and wants to test their knowledge of
+        worldly, yet relatively basic facts. This application keeps track of the
+        users score, displays whether the user submitted a correct or incorrect
+        answer after every question and allows the user to reset the quiz from
+        the beginning upon completion. This application utilizes the widely
+        deployed Javascript jQuery library, which is used in more than half of
+        the top 1 million websites in the world!
+        <p>
+          You can take the quiz yourself
+          <a
+            href="https://thinkful-ei-macaw.github.io/quizapp_DB/"
+            target="_blank"
+            >here!</a
+          >
+          The source code can be found
+          <a
+            href="https://github.com/thinkful-ei-macaw/quizapp_DB"
+            target="_blank"
+            >here!</a
+          >
+        </p>
+        Please note that this was a collaborative effort with one of my peers.
+        <img
+          class="screenshots"
+          src="images/quiz-app2.png"
+          alt="quiz-app-screenshot1"
+          width="350"
+          height="300"
+        />
+        <img
+          class="screenshots"
+          src="images/quiz-app.png"
+          alt="quiz-app-screenshot2"
+          width="350"
+          height="300"
+        />
+      </section>
+      <section class="projects">
+        <h4 class="section-titles">Bookmarks App</h4>
+        My second web application is a Bookmarks application, that also utilizes
+        jQuery and a public API that makes post, update, and delete requests. It
+        also has an expand/collapse function to view details of individual
+        bookmarks, validates user entry forms when adding a new bookmark, and a
+        rating function from 1 to 5 that allows you to filter by your bookmarks
+        rating. The API functionality allows the user to access them from any
+        device, as any bookmarks app should!
+        <p>
+          You can try it out for yourself
+          <a
+            href="https://thinkful-ei-macaw.github.io/bleek-bookmarks-app/"
+            target="_blank"
+            >here!</a
+          >
+          The source code can be found
+          <a href="https://github.com/thinkful-ei-macaw/bleek-bookmarks-app"
+            >here!</a
+          >
+        </p>
+        <img
+          class="screenshots"
+          src="images/Bookmarks-app.png"
+          alt="bookmark-screenshot"
+          width="600"
+          height="500"
+        />
+      </section>
+      <section class="projects">
+        <h4 class="section-titles">
+          Coronavirus in the US Message Board
+        </h4>
+        Furthering my skills to full-stack programming with more modern
+        JavaScript tools, my third effort is an anonymous message board on the
+        subject of the COVID-19 outbreak in the United States. Using React.js
+        for client-side and Node.js for server-side, I created a small platform
+        for users to discuss & share their experiences, hardships, triumphs, and
+        whatever else they see relevant by the state or US territory they reside
+        in during the pandemic. Users are prompted to provide a name or alias
+        they choose, select 1 of 54 states/territories, and their most recent
+        occupation. From there, they are directed to the state they can leave
+        their thoughts, see what others commented, and view the current total
+        cases and fatalities relative to that state.
+        <p>
+          You can try it out for yourself
+          <a href="https://corona-message-board-us.now.sh//" target="_blank">
+            here!
+          </a>
+        <p>The client-side code can be found
+          <a href="https://github.com/thinkful-ei-macaw/covid-19-client-bleek">
+            here!
+          </a>
+        </p>
+        <p>
+          The server-side code can be found
+          <a href="https://github.com/thinkful-ei-macaw/covid-19-server-bleek"
+            >here!</a
+          >
+        </p>
+        <img
+          class="screenshots"
+          src="images/covid19.jpg"
+          alt="bookmark-screenshot"
+          width="600"
+          height="500"
+        />
+      </section>
+      <section class="projects">
+        <h4 class="section-titles">
+          Sirilla Learning
+        </h4>
+        My next full-stack effort using React and Node explores the learning
+        technique known as spaced-repetition. Spaced-repetition is exactly how
+        it sounds: repeating something in timed intervals, in an effort to
+        commit to memory new concepts and abilities one wants to learn.
+        Highlighted features include a linked-list data structure & accompanying
+        algorithm that serves as a score multiplier, 256-bit encryption with
+        JSON WebToken for secure user registration & login, and a modern user
+        interface with SASS style sheets. Please note that this was a joint
+        effort between a fellow student and I.
+        <p>
+          You can try it out for yourself
+          <a
+            href="https://spaced-repetition-sb.now.sh/register"
+            target="_blank"
+          >
+            here!
+          </a></p>
+          <p>The client source code can be found
+          <a
+            href="https://github.com/thinkful-ei-macaw/spaced-repetition-client-Brandon-Sara"
+          >
+            here!
+          </a></p>
+          <p>The server source code can be found
+          <a
+            href="https://github.com/thinkful-ei-macaw/spaced-repetition-api-Brandon-Sara"
+          >
+            here!
+          </a></p>
+        <img
+          class="screenshots"
+          src="images/sirilla-learning.jpg"
+          alt="bookmark-screenshot"
+          width="600"
+          height="500"
+        />
+      </section>
+      <section class="projects">
+        <h4 class="section-titles">Trouvaille</h4>
+        My latest project is a travel planner application with a React & SASS
+        user-interface, Google Maps integration, and a secure Node server that
+        verifies & sends emails. As a user, you can plan customizable
+        cross-country trips according to your interests. Users select their
+        origin, destination, and categories (landmarks, recreation, etc.),
+        providing places you can visit along your way. Other features include
+        secure registration & login, email verification & password reset with
+        Nodemailer, and an animated loading screen.
+        <p>
+          You can try it out for yourself{' '}
+          <a
+            href="https://thinkful-ei-macaw.github.io/bleek-bookmarks-app/"
+            target="_blank"
+          >
+            here! </a
+          ></p>
+          <p>
+            The client source code can be found
+          <a href="https://github.com/thinkful-ei-macaw/bleek-bookmarks-app">
+            here! </a
+          ></p>
+          <p>The server source code can be found
+          <a href="https://github.com/Trouvaille-team/trouvaille-server">
+            here! </a
+          ></p>
+        <img
+          class="screenshots"
+          src="images/trouvaille-1.jpg"
+          alt="trouvaille-1"
+          width="600"
+          height="500"
+        />
+        <img
+          class="screenshots"
+          src="images/trouvaille-2.jpg"
+          alt="trouvaille-2"
+          width="600"
+          height="500"
+        />
+      </section>
+>>>>>>> cfe472aaf0f451b08c33a4aa569e52c3eb4edc95
     </main>
-    <footer>v.1</footer>
-</body>
-
+    <footer>v1.2</footer>
+  </body>
 </html>
